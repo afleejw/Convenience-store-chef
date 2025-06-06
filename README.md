@@ -40,7 +40,7 @@
 #### 프로젝트 설치 
 1. Doosan 패키지가 설치된 ROS 2 workspace의 src 디렉토리로 이동
 ```
-    $ cd ~/ros2_ws/src
+$ cd ~/ros2_ws/src
 ```
 2. 본 프로젝트 설치
 ```
