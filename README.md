@@ -34,8 +34,8 @@
 
 ## 🧩 설치 및 실행 방법
 ### 사전 요구사항
-1. Ubuntu 22.04 환경에 ROS 2 [Humble](https://docs.ros.org/en/humble/Installation.html)이 설치
-2. 두산 로봇 제어를 위한 ROS 2 패키지 [DoosanBootcamInt1](https://github.com/ROKEY-SPARK/DoosanBootcamInt1)이 설치
+1. Ubuntu 22.04 환경에 ROS 2 [Humble](https://docs.ros.org/en/humble/Installation.html) 설치
+2. 두산 로봇 제어를 위한 ROS 2 패키지 [DoosanBootcamInt1](https://github.com/ROKEY-SPARK/DoosanBootcamInt1) 설치
 
 #### 프로젝트 설치 
 1. Doosan 패키지가 설치된 ROS 2 workspace의 src 디렉토리로 이동
