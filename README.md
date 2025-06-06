@@ -33,10 +33,27 @@
 <br>
 
 ## 🧩 설치 및 실행 방법
+### 사전 요구사항
+1. Ubuntu 22.04 환경에 ROS 2 Humble이 설치
+2. 두산 로봇 제어를 위한 ROS 2 패키지 DoosanBootcamInt1이 설치
+
 #### 프로젝트 설치 
+1. Doosan 패키지가 설치된 ROS 2 workspace의 src 디렉토리로 이동
 ```
-    $ git clone https://github.com/afleejw/Convenience-store-chef.git
-    $ cd Convenience-store-chef
+    $ cd ~/ros2_ws/src
+```
+2. 본 프로젝트 설치
+```
+$ git clone https://github.com/afleejw/Convenience-store-chef.git
+```
+3. 워크스페이스 루트로 이동 후 빌드
+```
+$ cd ..
+$ colcon build
+```
+4. 환경 설정
+```
+$ source install/setup.bash
 ```
 
 #### 실행 순서
